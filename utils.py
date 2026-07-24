@@ -50,7 +50,7 @@ def activation_pc1(theta_norm, beta_norm):
     pca_model.transform([[theta,beta]])
     """
 
-    return 0.6 * theta_norm + 0.4 * beta_norm
+    return 0.5 * theta_norm + 0.5 * beta_norm
 
 
 def compute_cei(theta, beta):
