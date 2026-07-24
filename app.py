@@ -360,7 +360,7 @@ if generate:
         ),
         use_container_width=True
     )
-        st.divider()
+    st.divider()
 
     st.header("Framework Summary")
 
