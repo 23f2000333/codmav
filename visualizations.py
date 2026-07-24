@@ -158,7 +158,7 @@ def critic_bar(weights):
 
             text=[f"{v:.3f}" for v in values],
 
-            textposition="outside"
+            textposition="auto"
 
         )
 
