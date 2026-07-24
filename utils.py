@@ -83,7 +83,7 @@ def compute_cei(theta, beta):
 
     tbr = theta_beta_ratio(theta, beta)
 
-    attention = normalize(tbr, 0, 5)
+    attention = normalize(tbr, 0, 15)
 
     cei = (activation + attention) / 2
 
